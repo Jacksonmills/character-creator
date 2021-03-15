@@ -1,2 +1,12 @@
 .buttonRow {
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  margin: 10px -24px;
+  margin-bottom: 0;
+}
+
+.buttonRow button:first-child {
+  margin-left: 24px;
 }
