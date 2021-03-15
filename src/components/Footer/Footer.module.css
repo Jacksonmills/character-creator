@@ -14,7 +14,7 @@
 }
 
 .footer a {
-  color: white;
+  color: inherit;
   transition: filter 100ms ease;
 }
 .footer a:hover {

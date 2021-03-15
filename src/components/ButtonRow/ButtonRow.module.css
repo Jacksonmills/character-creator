@@ -1,12 +1,10 @@
 .buttonRow {
   white-space: nowrap;
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow: auto;
 
-  margin: 10px -24px;
-  margin-bottom: 0;
-}
+  margin-left: -24px;
+  margin-right: -24px;
+  margin-bottom: -24px;
 
-.buttonRow button:first-child {
-  margin-left: 24px;
+  padding: 24px;
 }

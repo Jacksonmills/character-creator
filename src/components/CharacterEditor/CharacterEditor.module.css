@@ -9,6 +9,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
   overflow: hidden;
   height: 100%;
 }
@@ -45,7 +46,7 @@
 }
 @media (min-width: 768px) {
   .characterWrapper {
-    top: 128px;
+    top: 15%;
     left: 60%;
   }
 }
@@ -53,9 +54,8 @@
 .characterStage {
   position: fixed;
   bottom: 0;
-  left: 0;
+  height: 40%;
   background-color: hsl(195deg, 20%, 86%);
-  height: 300px;
   width: 100%;
 }
 
