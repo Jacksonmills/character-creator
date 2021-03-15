@@ -88,7 +88,6 @@ function App() {
           />
         </div>
       </MaxWidthWrapper>
-
     </main>
   );
 }

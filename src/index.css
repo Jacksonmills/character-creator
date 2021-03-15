@@ -12,6 +12,11 @@ body {
 main {
   height: 100%;
 }
+@media (min-width: 768px) {
+  main {
+    height: auto;
+  }
+}
 
 *,
 *:before,

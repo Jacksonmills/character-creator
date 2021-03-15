@@ -1,5 +1,10 @@
 .character {
   /* Fill the available container height */
-  width: 500px;
+  width: 350px;
   height: 100%;
+}
+@media (min-width: 768px) {
+  .character {
+    width: 500px;
+  }
 }
